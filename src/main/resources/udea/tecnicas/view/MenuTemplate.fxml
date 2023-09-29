@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="udea.tecnicas.view.MenuTemplate">
+   <children>
+      <Pane id="Menu1" prefHeight="600.0" prefWidth="175.0" styleClass="Menu1" stylesheets="@../../../asset/css/Menu.css">
+         <children>
+            <Icon content="HELP_OUTLINE" layoutX="21.0" layoutY="560.0" />
+            <Label layoutX="54.0" layoutY="564.0" text="Cerrar sesion" />
+            <Line endX="50.5" layoutX="83.0" layoutY="548.0" startX="-68.5" stroke="#eef1f4" />
+            <Group layoutX="9.0" layoutY="74.0">
+               <children>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="148.0" />
+                  <Icon content="DOMAIN" layoutX="11.0" layoutY="8.0" />
+                  <Label layoutX="44.0" layoutY="13.0" text="Label" />
+                  <Icon content="FORWARD" layoutX="120.0" layoutY="8.0" />
+               </children>
+            </Group>
+            <Group layoutX="9.0" layoutY="30.0" styleClass="MenuItem">
+               <children>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#eef1f4" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="152.0" />
+                  <Icon content="ACCESS_TIME" layoutX="11.0" layoutY="8.0" />
+                  <Label layoutX="44.0" layoutY="13.0" text="Label" />
+                  <Icon content="FORWARD" layoutX="120.0" layoutY="8.0" />
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <Pane id="Menu2" layoutX="174.0" prefHeight="600.0" prefWidth="175.0" styleClass="Menu2" stylesheets="@../../../asset/css/Menu.css">
+         <children>
+            <Group layoutX="16.0" layoutY="28.0" styleClass="MenuItem">
+               <children>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#eef1f4" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="144.0" />
+                  <Icon content="GPS_FIXED" layoutX="11.0" layoutY="8.0" />
+                  <Label layoutX="44.0" layoutY="13.0" text="Label" />
+                  <Icon content="FORWARD" layoutX="120.0" layoutY="8.0" />
+               </children>
+            </Group>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
