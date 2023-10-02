@@ -39,8 +39,6 @@ public class TemplateLogin {
             stage.setScene(scene);
             stage.setResizable(false);
             stage.show();
-            System.out.println("new Window");
-            //Stage.getWindows().getFirst().hide();
         }catch (LoadException e){
             System.out.println(e.toString());
         }
