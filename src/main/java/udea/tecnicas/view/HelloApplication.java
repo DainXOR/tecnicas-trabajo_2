@@ -14,6 +14,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 800, 400);
         stage.setTitle("CorAntioquia!");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 

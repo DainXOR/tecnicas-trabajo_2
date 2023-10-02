@@ -37,6 +37,7 @@ public class TemplateLogin {
             Scene scene = new Scene(fxmlLoader.load(), 1200, 600);
             stage.setTitle("CorAntioquia!");
             stage.setScene(scene);
+            stage.setResizable(false);
             stage.show();
             System.out.println("new Window");
             //Stage.getWindows().getFirst().hide();
@@ -47,6 +48,7 @@ public class TemplateLogin {
             System.out.println(e.toString());
         }
     }
+
     void closeWindow(ActionEvent event){
         ((Node)event.getSource()).getScene().getWindow().hide();
     }
