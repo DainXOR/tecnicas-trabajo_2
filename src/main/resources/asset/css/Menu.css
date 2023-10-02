@@ -13,3 +13,7 @@
 .MenuItem:hover{
 -fx-background-color:#EEF1F4;
 }
+.MenuItem
+{
+  -fx-background-color:#fe0;
+}
