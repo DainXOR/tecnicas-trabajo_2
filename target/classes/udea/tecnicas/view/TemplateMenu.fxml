@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.gluonhq.charm.glisten.control.Icon?>
-<?import com.gluonhq.impl.charm.glisten.control.RefreshIndicator?>
+<?import com.gluonhq.charm.glisten.*?>
 <?import javafx.scene.Group?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -16,9 +15,9 @@
          <children>
             <Label layoutX="54.0" layoutY="564.0" text="Cerrar sesion" />
             <Line endX="50.5" layoutX="83.0" layoutY="548.0" startX="-68.5" stroke="#eef1f4" />
-            <Group layoutX="9.0" layoutY="74.0" onMouseClicked="#MenuLicenciasClick" styleClass="MenuItem">
+            <Group fx:id="GroupMenu11" layoutX="9.0" layoutY="74.0" onMouseClicked="#MenuLicenciasClick" styleClass="MenuItem">
                <children>
-                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="148.0" />
+                  <Rectangle fx:id="RectanguloMenu11" arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="44.0" onMouseClicked="#MenuClic" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="MenuItem" width="148.0" />
                   <Label layoutX="42.0" layoutY="15.0" text="Label" textFill="#545f71">
                      <font>
                         <Font name="Roboto Bold" size="13.0" />
@@ -27,9 +26,9 @@
                   <Icon content="CLOUD_QUEUE" layoutX="14.0" layoutY="9.0" />
                </children>
             </Group>
-            <Group layoutX="9.0" layoutY="30.0" onMouseClicked="#MenuLicenciasClick" styleClass="MenuItem">
+            <Group  fx:id="GroupMenu10"  layoutX="9.0" layoutY="30.0" onMouseClicked="#MenuLicenciasClick" styleClass="MenuItem">
                <children>
-                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#eef1f4" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="MenuItem" width="152.0" />
+                  <Rectangle fx:id="RectanguloMenu10" arcHeight="20.0" arcWidth="20.0" fill="#eef1f4" height="44.0" onMouseClicked="#MenuClic" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="MenuItem" width="152.0" />
                   <Label layoutX="44.0" layoutY="15.0" text="Licencias" textFill="#545f71">
                      <font>
                         <Font name="Roboto Bold" size="13.0" />
@@ -42,9 +41,9 @@
       </Pane>
       <Pane id="Menu2" fx:id="Panel2" layoutX="174.0" prefHeight="600.0" prefWidth="175.0" styleClass="Menu2" stylesheets="@../../../asset/css/Menu.css">
          <children>
-            <Group layoutX="16.0" layoutY="28.0" styleClass="MenuItem">
+            <Group  fx:id="GroupMenu20"  layoutX="16.0" layoutY="28.0" styleClass="MenuItem">
                <children>
-                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#eef1f4" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="144.0" />
+                  <Rectangle fx:id="RectanguloMenu20" arcHeight="20.0" arcWidth="20.0" fill="#eef1f4" height="44.0" onMouseClicked="#MenuClic" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="144.0" />
                   <Label layoutX="40.0" layoutY="15.0" text="Seguimiento" textFill="#545f71">
                      <font>
                         <Font size="12.0" />
@@ -53,9 +52,9 @@
                   <Icon content="CONFIRMATION_NUMBER" layoutX="14.0" layoutY="9.0" />
                </children>
             </Group>
-            <Group layoutX="14.0" layoutY="79.0" styleClass="MenuItem">
+            <Group fx:id="GroupMenu21"  layoutX="14.0" layoutY="79.0" styleClass="MenuItem">
                <children>
-                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#ffffff00" height="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="148.0" />
+                  <Rectangle fx:id="RectanguloMenu21" arcHeight="20.0" arcWidth="20.0" fill="#ffffff00" height="44.0" onMouseClicked="#MenuClic" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="148.0" />
                   <Label layoutX="42.0" layoutY="15.0" text="Solicitar" textFill="#545f71">
                      <font>
                         <Font name="Roboto Bold" size="12.0" />
@@ -67,11 +66,10 @@
             </Group>
          </children>
       </Pane>
-      <RefreshIndicator layoutX="566.0" />
-      <AnchorPane fx:id="Contenido" layoutX="395.0" layoutY="30.0" prefHeight="534.0" prefWidth="769.0" >
+      <AnchorPane fx:id="Contenido" layoutX="395.0" layoutY="30.0" prefHeight="534.0" prefWidth="769.0">
          <children>
-            <fx:include fx:id="someId" source="Seguimiento.fxml"/>
-            <fx:include fx:id="someId2" source="Nueva_Solicitud.fxml" visible="False"/>
+            <fx:include source="Seguimiento.fxml" />
+            <fx:include source="Nueva_Solicitud.fxml" visible="False" />
          </children>
       </AnchorPane>
    </children>
