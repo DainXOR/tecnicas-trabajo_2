@@ -4,8 +4,6 @@
 <?import com.gluonhq.impl.charm.glisten.control.RefreshIndicator?>
 <?import javafx.scene.Group?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
@@ -69,16 +67,12 @@
             </Group>
          </children>
       </Pane>
-      <TableView layoutX="363.0" layoutY="84.0" prefHeight="317.0" prefWidth="713.0">
-        <columns>
-          <TableColumn prefWidth="75.0" text="id" />
-           <TableColumn prefWidth="75.0" text="Cliente" />
-           <TableColumn prefWidth="75.0" text="Autor" />
-           <TableColumn prefWidth="75.0" text="Inicio" />
-           <TableColumn prefWidth="75.0" text="Finalizacion" />
-          <TableColumn prefWidth="75.0" text="Recurso" />
-        </columns>
-      </TableView>
       <RefreshIndicator layoutX="566.0" />
+      <AnchorPane fx:id="Contenido" layoutX="395.0" layoutY="30.0" prefHeight="534.0" prefWidth="769.0" >
+         <children>
+            <fx:include fx:id="someId" source="Seguimiento.fxml"/>
+            <fx:include fx:id="someId2" source="Nueva_Solicitud.fxml" visible="False"/>
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

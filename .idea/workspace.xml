@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a12bd-49d8-42ad-b2fd-b769cb9017ad" name="Changes" comment="Correcion de iconos">
+    <list default="true" id="4c7a12bd-49d8-42ad-b2fd-b769cb9017ad" name="Changes" comment="Primeras pruebas de interaccion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/NuevaSolicitud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/Seguimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/udea/tecnicas/view/Nueva_Solicitud.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/udea/tecnicas/view/Seguimiento.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/TemplateLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/TemplateLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/TemplateMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/udea/tecnicas/view/TemplateMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset/css/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/asset/css/Menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/udea/tecnicas/view/TemplateMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/udea/tecnicas/view/TemplateMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asset/css/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asset/css/Menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/udea/tecnicas/view/TemplateMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/udea/tecnicas/view/TemplateMenu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696251878048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Primeras pruebas de interaccion">
+      <option name="closed" value="true" />
+      <created>1696258041183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696258041183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +163,7 @@
     <MESSAGE value="Se genera template con menus" />
     <MESSAGE value="Se modifican formularios" />
     <MESSAGE value="Correcion de iconos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcion de iconos" />
+    <MESSAGE value="Primeras pruebas de interaccion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeras pruebas de interaccion" />
   </component>
 </project>
